@@ -485,6 +485,14 @@
   margin-top: 24px;
   padding-top: 18px;
   font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-privacy {
+  color: var(--footer-accent);
+  font-weight: 600;
 }
 
 @keyframes roll {

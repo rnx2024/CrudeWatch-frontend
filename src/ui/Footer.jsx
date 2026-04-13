@@ -8,22 +8,10 @@ export default function Footer() {
             Data-driven energy intelligence for crude markets and price impact.
           </p>
         </div>
-        <div className="footer-links">
-          <p className="footer-title">Quick Links</p>
-          <div className="footer-links-row">
-            <a href="/">Home</a>
-            <a href="/fuel-prices">Fuel Prices</a>
-            <a href="/pricing-trend">Pricing Trend</a>
-            <a href="/fuel-tax-comparison">Fuel Tax</a>
-            <a href="/subsidy-tracker">Subsidy Tracker</a>
-            <a href="/world-data">World Data</a>
-            <a href="/about">About</a>
-            <a href="/privacy">Privacy</a>
-          </div>
-        </div>
       </div>
       <div className="footer-bottom">
         <span>© 2026 FuelSignal. All rights reserved.</span>
+        <a className="footer-privacy" href="/privacy">Privacy</a>
       </div>
     </footer>
   );

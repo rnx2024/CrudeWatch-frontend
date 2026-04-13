@@ -50,6 +50,11 @@ export default function Home() {
               value="Country curves"
               trend="Year comparisons"
             />
+            <StatCard
+              label="Tax & Subsidy Comparison"
+              value="Regional gaps"
+              trend="Policy contrasts"
+            />
           </div>
         </div>
         <div className="hero-visual">

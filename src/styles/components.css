@@ -138,8 +138,14 @@
 
 .rolling-track {
   display: flex;
+  animation: roll var(--rolling-duration, 0s) linear infinite;
+  align-items: stretch;
   gap: 18px;
-  animation: roll 22s linear infinite;
+}
+
+.rolling-set {
+  display: flex;
+  gap: 18px;
 }
 
 .rolling-card {

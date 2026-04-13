@@ -12,7 +12,7 @@ export default function Privacy() {
         <div className="card">
           <h3>What We Collect</h3>
           <p>
-            FuelTracker does not ask for names, emails, accounts, or payments.
+            FuelSignal does not ask for names, emails, accounts, or payments.
             We do not sell personal information.
           </p>
           <p>

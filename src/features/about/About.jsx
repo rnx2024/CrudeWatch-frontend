@@ -25,7 +25,7 @@ export default function About() {
     <section className="section about">
       <SectionHeader
         eyebrow="About"
-        title="What is FuelTracker?"
+        title="What is FuelSignal?"
         subtitle=""
       />
 
@@ -34,8 +34,8 @@ export default function About() {
         <div className="card">
           <h3>Mission</h3>
           <p>
-              FuelTracker consolidates market and policy datasets for energy insights.
-              FuelTracker seeks to provide free information regarding fuel prices,
+              FuelSignal consolidates market and policy datasets for energy insights.
+              FuelSignal seeks to provide free information regarding fuel prices,
               trends, pricing, tax and subsidy patterns in Asia and across the
               globe.
           </p>

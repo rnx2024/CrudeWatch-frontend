@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import About from "./features/about/About";
 import Home from "./features/home/Home";
-import WorldData from "./features/world-data/WorldData";
 import FuelPrices from "./features/fuel-prices/FuelPrices";
 import PricingTrend from "./features/pricing-trend/PricingTrend";
 import FuelTaxComparison from "./features/fuel-tax-comparison/FuelTaxComparison";
@@ -22,8 +21,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/pricing-trend" element={<PricingTrend />} />
           <Route path="/fuel-tax-comparison" element={<FuelTaxComparison />} />
           <Route path="/subsidy-tracker" element={<SubsidyTracker />} />
-          <Route path="/world-data" element={<WorldData />} />
-          <Route path="/insights" element={<WorldData />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />
         </Routes>

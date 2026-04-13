@@ -24,16 +24,6 @@ const rollingInsights = [
     text: "Subsidy status, mechanisms, and recent changes.",
     icon: Icons.radar,
   },
-  {
-    title: "World Data",
-    text: "Top global insights from the latest snapshot.",
-    icon: Icons.globe,
-  },
-  {
-    title: "Geopolitical Timeline",
-    text: "Filter events by year to add context.",
-    icon: Icons.radar,
-  },
 ];
 
 export default function Home() {
@@ -59,11 +49,6 @@ export default function Home() {
               label="Pricing Trend"
               value="Country curves"
               trend="Year comparisons"
-            />
-            <StatCard
-              label="World Data"
-              value="Insights"
-              trend="World + Asia"
             />
           </div>
         </div>

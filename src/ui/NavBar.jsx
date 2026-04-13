@@ -19,9 +19,6 @@ export default function NavBar() {
           <NavLink to="/pricing-trend">Pricing Trend</NavLink>
           <NavLink to="/fuel-tax-comparison">Fuel Tax</NavLink>
           <NavLink to="/subsidy-tracker">Subsidy Tracker</NavLink>
-          <a className="nav-cta" href="/world-data">
-            World Data
-          </a>
           <NavLink to="/about">About</NavLink>
         </div>
       </nav>

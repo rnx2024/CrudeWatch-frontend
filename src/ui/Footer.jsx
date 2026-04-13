@@ -5,7 +5,7 @@ export default function Footer() {
         <div>
           <h4>FuelSignal</h4>
           <p>
-            Data-driven energy intelligence for crude markets and price impact.
+            Data-driven energy insights for crude markets and price impact.
           </p>
         </div>
       </div>

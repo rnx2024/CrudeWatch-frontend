@@ -45,7 +45,7 @@ export default function Home() {
             Track crude shocks, pricing pressure and impacts.
           </h1>
           <p>
-            CrudeWatch connects market movements with policy buffers and
+            FuelTracker connects market movements with policy buffers and
             consumer impact. Monitor volatility, evaluate pass-through, and
             understand where prices hit hardest.
           </p>

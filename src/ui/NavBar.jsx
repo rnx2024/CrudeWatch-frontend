@@ -7,8 +7,8 @@ export default function NavBar() {
         <Link to="/" className="brand">
           <img
             className="brand-mark"
-            src="/crudewatch-logo.png"
-            alt="CrudeWatch logo"
+            src="/fueltracker-logo.png"
+            alt="FuelTracker logo"
           />
         </Link>
         <div className="nav-links">

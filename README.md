@@ -1,6 +1,6 @@
-# CrudeWatch Frontend
+# FuelTracker Frontend
 
-Frontend for CrudeWatch. The UI highlights curated insights, focused country comparisons, and AI briefs from the backend.
+Frontend for FuelTracker. The UI highlights curated insights, focused country comparisons, and AI briefs from the backend.
 
 ## Quick Start
 

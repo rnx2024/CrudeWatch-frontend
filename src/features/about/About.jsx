@@ -25,17 +25,17 @@ export default function About() {
     <section className="section about">
       <SectionHeader
         eyebrow="About"
-        title="Data sources and credits"
-        subtitle="CrudeWatch consolidates market and policy datasets for energy insights."
+        title="What is FuelTracker?"
+        subtitle=""
       />
 
       <div className="about-grid">
         <div className="about-col">
         <div className="card">
-          <h3>CrudeWatch Mission</h3>
+          <h3>Mission</h3>
           <p>
-              CrudeWatch consolidates market and policy datasets for energy insights.
-              CrudeWatch seeks to provide free information regarding fuel prices,
+              FuelTracker consolidates market and policy datasets for energy insights.
+              FuelTracker seeks to provide free information regarding fuel prices,
               trends, pricing, tax and subsidy patterns in Asia and across the
               globe.
           </p>
@@ -48,6 +48,8 @@ export default function About() {
               ))}
             </ul>
           </div>
+        </div>
+        <div className="about-col">
           <div className="card accent">
             <h3>Datasets Credited to Kaggle Users:</h3>
             <ul>
@@ -56,8 +58,6 @@ export default function About() {
               ))}
             </ul>
           </div>
-        </div>
-        <div className="about-col">
           <div className="card">
             <h3>Data Limitation</h3>
             <p>

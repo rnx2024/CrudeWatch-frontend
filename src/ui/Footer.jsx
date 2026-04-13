@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-inner">
         <div>
-          <h4>CrudeWatch</h4>
+          <h4>FuelTracker</h4>
           <p>
             Data-driven energy intelligence for crude markets and price impact.
           </p>
@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <span>© 2026 CrudeWatch. All rights reserved.</span>
+        <span>© 2026 FuelTracker. All rights reserved.</span>
       </div>
     </footer>
   );

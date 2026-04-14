@@ -74,9 +74,3 @@ Kaggle users credited for data cleaning:
 - `GET /data/subsidy-summary`
 - `GET /data/tax-summary`
 - `POST /ai/insights`
-
-## Notes
-
-- Keep UI intentional. Avoid dumping all outputs.
-- Any change to data sources or credits must update About + README + docs.
-- If you want the cards to also show mini trend bars or icons per category, I can add that next.

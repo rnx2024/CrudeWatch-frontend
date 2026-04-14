@@ -1,6 +1,6 @@
-# FuelSignal Frontend
+# FuelSignal
 
-Frontend for FuelSignal. The UI focuses on fuel price snapshots, trend comparisons, tax structures, and subsidy tracking.
+This app focuses on fuel price snapshots, trend comparisons, tax structures, and subsidy tracking.
 
 ## Quick Start
 
@@ -35,9 +35,3 @@ VITE_API_KEY=your_backend_key
 - `/about` About
 - `/privacy` Privacy
 
-## Backend Endpoints Used
-
-- `GET /data/fuel-prices`
-- `GET /data/current-fuel-prices-mm`
-- `GET /data/tax-comparison`
-- `GET /data/subsidy-tracker-asia`

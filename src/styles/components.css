@@ -38,6 +38,43 @@
 
 .commute-bus {
   transform-origin: center;
+  transform-box: fill-box;
+  animation: busDrive 6s ease-in-out infinite;
+}
+
+.commute-bus-bob {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: busBob 0.9s ease-in-out infinite;
+}
+
+.commute-wheel-spin {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: wheelSpin 0.95s linear infinite;
+}
+
+.commute-road-marks .commute-lane {
+  stroke-dashoffset: 0;
+  opacity: 0.85;
+  vector-effect: non-scaling-stroke;
+  animation: dashMove 6s linear infinite;
+}
+
+.commute-road-marks .commute-edge {
+  vector-effect: non-scaling-stroke;
+}
+
+.commute-clouds {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: cloudDrift 10s ease-in-out infinite;
+}
+
+.commute-skyline {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: skylineDrift 14s ease-in-out infinite;
 }
 
 .commute-lines rect {
@@ -86,6 +123,19 @@
 
 .scene-school {
   animation-delay: 6s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .commute-lines rect,
+  .scene,
+  .commute-clouds,
+  .commute-skyline,
+  .commute-road-marks .commute-lane,
+  .commute-bus,
+  .commute-bus-bob,
+  .commute-wheel-spin {
+    animation: none !important;
+  }
 }
 
 .card {
@@ -1315,6 +1365,58 @@
   100% {
     transform: translateX(0);
     opacity: 0.6;
+  }
+}
+
+@keyframes dashMove {
+  to {
+    stroke-dashoffset: -360;
+  }
+}
+
+@keyframes wheelSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes busDrive {
+  0%,
+  100% {
+    transform: translateX(24px) translateY(2px) scale(0.92);
+  }
+  55% {
+    transform: translateX(72px) translateY(0) scale(1);
+  }
+}
+
+@keyframes busBob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1.6px);
+  }
+}
+
+@keyframes cloudDrift {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-18px);
+  }
+}
+
+@keyframes skylineDrift {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
   }
 }
 

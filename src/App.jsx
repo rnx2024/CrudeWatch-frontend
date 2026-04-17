@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import NavBar from "./ui/NavBar";
 import Footer from "./ui/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({ children }) {
   return (
@@ -8,6 +9,7 @@ export default function App({ children }) {
       <NavBar />
       <main>{children}</main>
       <Footer />
+      <Analytics />
     </div>
   );
 }

@@ -22,7 +22,9 @@ export default function Privacy() {
             operating system), and may include approximate location derived
             from IP address (such as city/country). Vercel states this data is
             anonymized/aggregated and does not rely on third-party cookies.
-            See{" "}
+          </p>
+          <p className="privacy-read-link">
+            Read{" "}
             <a
               href="https://vercel.com/docs/analytics/privacy-policy"
               target="_blank"

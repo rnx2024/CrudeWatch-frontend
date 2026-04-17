@@ -425,6 +425,19 @@
   text-decoration: underline;
 }
 
+.about .privacy-read-link {
+  margin-top: 12px;
+  font-weight: 800;
+  color: var(--green-dark);
+}
+
+.about .privacy-read-link a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
 .about-note {
   margin-top: 18px;
   padding: 14px 16px;

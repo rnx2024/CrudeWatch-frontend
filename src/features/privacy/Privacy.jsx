@@ -16,10 +16,21 @@ export default function Privacy() {
             We do not sell personal information.
           </p>
           <p>
-            For security and reliability, our servers may log basic technical
-            data such as IP address, user agent, request time, and request ID.
-            These logs are used for debugging, rate limiting, and abuse
-            prevention.
+            We also use Vercel Analytics (Web Analytics) to understand site
+            usage. This provides aggregated insights such as page views,
+            referrers, and device information (for example browser and
+            operating system), and may include approximate location derived
+            from IP address (such as city/country). Vercel states this data is
+            anonymized/aggregated and does not rely on third-party cookies.
+            See{" "}
+            <a
+              href="https://vercel.com/docs/analytics/privacy-policy"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vercel Web Analytics Privacy &amp; Compliance
+            </a>
+            .
           </p>
         </div>
         <div className="card accent">
@@ -30,6 +41,9 @@ export default function Privacy() {
             users across websites.
           </p>
           <p>
+            We use aggregated analytics to understand what pages are most
+            useful, improve performance and reliability, and prioritize product
+            improvements. We do not use analytics for targeted advertising.
           </p>
         </div>
       </div>

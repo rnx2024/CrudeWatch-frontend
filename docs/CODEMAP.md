@@ -4,9 +4,9 @@
 
 - `src/main.jsx`: router and app boot
 - `src/App.jsx`: layout shell
+- `src/features/not-found/NotFound.jsx`: catch-all route
 - `src/features/home/Home.jsx`: home page (hero + highlights)
 - `src/features/fuel-prices/FuelPrices.jsx`: fuel prices view
-- `src/features/pricing-trend/PricingTrend.jsx`: pricing trend view
 - `src/features/fuel-tax-comparison/FuelTaxComparison.jsx`: tax comparison view
 - `src/features/subsidy-tracker/SubsidyTracker.jsx`: subsidy tracker (Asia)
 - `src/features/about/About.jsx`: sources and credits

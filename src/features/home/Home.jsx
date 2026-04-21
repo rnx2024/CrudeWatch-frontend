@@ -11,11 +11,6 @@ const rollingInsights = [
     icon: Icons.chart,
   },
   {
-    title: "Pricing Trend",
-    text: "Track monthly movements by country and region.",
-    icon: Icons.shield,
-  },
-  {
     title: "Fuel Tax Comparison",
     text: "Compare tax structures within each region.",
     icon: Icons.pump,
@@ -47,14 +42,14 @@ export default function Home() {
               trend="Monthly snapshots"
             />
             <StatCard
-              label="Pricing Trend"
-              value="Country curves"
-              trend="Year comparisons"
+              label="Fuel Tax Comparison"
+              value="Regional gaps"
+              trend="Policy structure"
             />
             <StatCard
-              label="Tax & Subsidy Comparison"
-              value="Regional gaps"
-              trend="Policy contrasts"
+              label="Subsidy Tracker (Asia)"
+              value="Program status"
+              trend="Policy changes"
             />
           </div>
         </div>

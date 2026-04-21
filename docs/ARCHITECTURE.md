@@ -9,7 +9,7 @@
 
 - UI requests curated endpoints only
 - Responses drive charts and summary cards
-- API key is stored in `.env.local`
+- Optional `x-api-key` is configured via `VITE_API_KEY` (public-client only; see `docs/AUTH.md`)
 
 ## UX Principles
 

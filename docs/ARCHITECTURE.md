@@ -3,7 +3,7 @@
 ## Runtime
 
 - Vite + React + React Router
-- Single-page app with `/`, `/fuel-prices`, `/pricing-trend`, `/fuel-tax-comparison`, `/subsidy-tracker`, `/about`, `/privacy`
+- Single-page app with `/`, `/fuel-prices`, `/fuel-tax-comparison`, `/subsidy-tracker`, `/about`, `/privacy`
 
 ## Data Flow
 

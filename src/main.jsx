@@ -5,7 +5,6 @@ import App from "./App";
 import About from "./features/about/About";
 import Home from "./features/home/Home";
 import FuelPrices from "./features/fuel-prices/FuelPrices";
-import PricingTrend from "./features/pricing-trend/PricingTrend";
 import FuelTaxComparison from "./features/fuel-tax-comparison/FuelTaxComparison";
 import SubsidyTracker from "./features/subsidy-tracker/SubsidyTracker";
 import Privacy from "./features/privacy/Privacy";
@@ -19,7 +18,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route element={<App />}>
           <Route index element={<Home />} />
           <Route path="fuel-prices" element={<FuelPrices />} />
-          <Route path="pricing-trend" element={<PricingTrend />} />
           <Route path="fuel-tax-comparison" element={<FuelTaxComparison />} />
           <Route path="subsidy-tracker" element={<SubsidyTracker />} />
           <Route path="about" element={<About />} />

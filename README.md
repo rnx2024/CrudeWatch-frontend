@@ -50,7 +50,6 @@ and **must not rely on a client-shipped key**. See `docs/AUTH.md`.
 
 - `/` Home
 - `/fuel-prices` Fuel Prices
-- `/pricing-trend` Pricing Trend
 - `/fuel-tax-comparison` Fuel Tax Comparison
 - `/subsidy-tracker` Subsidy Tracker (Asia)
 - `/about` About (sources/credits)
